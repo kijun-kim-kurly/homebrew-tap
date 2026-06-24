@@ -12,12 +12,12 @@ cask "json-lens" do
   app "JSON Lens.app"
 
   caveats <<~EOS
-    서명/공증되지 않은 사내 빌드입니다. Gatekeeper 경고 없이 쓰려면 아래 중 하나로 설치/실행하세요.
+    서명/공증되지 않은 사내 빌드라, 첫 실행 시 macOS Gatekeeper 경고가 뜹니다.
+    다음 중 하나로 실행하세요:
 
-      1) 설치 시 격리(quarantine) 비활성화:
-           brew install --cask --no-quarantine json-lens
+      1) 첫 실행 시: 시스템 설정 → 개인정보 보호 및 보안 → "그래도 열기"
 
-      2) 일반 설치 후 첫 실행 시:
-           시스템 설정 → 개인정보 보호 및 보안 → "그래도 열기"
+      2) 또는 터미널에서 격리 속성 제거 후 실행:
+           xattr -dr com.apple.quarantine "/Applications/JSON Lens.app"
   EOS
 end
