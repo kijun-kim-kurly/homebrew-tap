@@ -1,6 +1,6 @@
 cask "json-lens" do
-  version "1.0.1"
-  sha256 "c9e26831e0d8e0344df2248c68571b96b39f274cc0cd456a0401ccd1a4dd7178"
+  version "1.0.2"
+  sha256 "b68d2202bfffd1909c1cadea3e6c8304953aeef8f9e423f0a348d416eab6fde3"
 
   url "https://github.com/kijun-kim-kurly/homebrew-tap/releases/download/v#{version}/JSON-Lens-#{version}-aarch64.dmg"
   name "JSON Lens"
