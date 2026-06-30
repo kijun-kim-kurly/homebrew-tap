@@ -1,6 +1,6 @@
 cask "video-lens" do
-  version "1.0.0"
-  sha256 "ad22e41212d2536fdb6ac0b05b1e5910385bf1e860f21b03b3bb67dd82a938a7"
+  version "1.1.0"
+  sha256 "df23eea11b4404661915d51c4f2c25b86e1006a89f4b28aa90bd28368415691a"
 
   url "https://github.com/kijun-kim-kurly/homebrew-tap/releases/download/video-lens-v#{version}/Video-Lens-#{version}-aarch64.dmg"
   name "Video Lens"
